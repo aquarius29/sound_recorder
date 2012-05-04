@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, here I am!</string>
+    <string name="app_name">Test Recorder</string>
+    <string name="tuner">Tunerr</string>
+    <string name="frequencytxt">Hello there ...</string>
+    <string name="play">Play</string>
+
+</resources>
