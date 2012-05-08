@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RecordNowActivity!</string>
+    <string name="app_name">RecordNow</string>
+    <string name="record_button_description">Record Button</string>
+    <string name="stop_button_description">Stop Button</string>
+    <string name="point_prompt">Select the point you are recording at</string>
+    
+    <string-array name="point_array">
+        <item>Position 1</item>
+        <item>Position 2</item>
+        <item>Position 3</item>
+        <item>Position 4</item>
+        <item >Position 5</item>
+    </string-array>
+    <string name="radio0">Working machine</string>
+    <string name="radio1">Faulty machine</string>
+
+</resources>

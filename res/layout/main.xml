@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/point_array"
+        android:prompt="@string/point_prompt" />
+
+    <RadioGroup
+        android:id="@+id/machineState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="#888"
+            android:text="@string/radio0" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#888"
+            android:text="@string/radio1" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/mic_image"
+        android:layout_width="200dp"
+        android:layout_height="224dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Mic Image"
+        android:src="@drawable/mic" />
+
+    <LinearLayout
+        android:id="@+id/linear_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom" >
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/record_button_description"
+            android:src="@drawable/record_stop_button" />
+        <TextView 
+            android:id="@+id/elapsed_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
